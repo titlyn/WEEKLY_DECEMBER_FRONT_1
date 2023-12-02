@@ -1,0 +1,37 @@
+.sales_automation {
+    text-align: center;
+    margin: 20px;
+}
+
+.sales_automation .discount_border {
+    border: 2px dashed gray;
+    border-radius: 20px;
+}
+
+.sales_automation .discount_border .no_border {
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(238, 234, 234); 
+    display: flex;
+    padding :5px;
+}
+
+.sales_automation .discount_border .no_border .card {
+    flex: 1;
+    text-align: start;
+}
+
+.card_button {
+    height: 45px;
+    width: 30%;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.card_title {
+    display: flex;
+}
