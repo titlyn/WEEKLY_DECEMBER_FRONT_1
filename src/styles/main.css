@@ -37,9 +37,9 @@ body {
   overflow-y: hidden;
 }
 
-#loader{
+/* #loader{
   z-index: 16;
-}
+} */
 
 #page-content{
   z-index: 15;
