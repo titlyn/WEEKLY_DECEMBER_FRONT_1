@@ -1,0 +1,94 @@
+#first{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    border: 2px solid red;
+}
+
+#first .left{
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    margin: auto 0;
+    /* border: 2px solid red; */
+}
+
+#first #texts{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    margin-bottom: 2.1rem;
+}
+
+#first .big{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+#first .semi{
+    font-size: 1.2rem;
+}
+
+#first .btns{
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+#first .secondary{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#first #badge{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    margin: 2.5rem 0;
+
+    width: max-content;
+    height: 6rem;
+}
+
+#first #badge .wing{
+    width: 1.8rem;
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+#first #badge #badge-container{
+    height: 100%;
+    width: auto;
+}
+
+#first #badge #badge-container img{
+    height: 100%;
+    width: 4rem;
+}
+
+#first #badge .wing svg{
+    width: auto;
+    height: 100%;
+
+    margin-bottom: auto;
+}
+
+#firs #badge #content{
+    height: max-content;
+}
+
+#first .line{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--secondary-2);
+}
