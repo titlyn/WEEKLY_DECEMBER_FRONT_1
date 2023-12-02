@@ -518,13 +518,15 @@ footer {
 }
 
 .dbox {
-    margin: 6rem;
+    width: 35%;
+    margin: 5%;
 }
 
 
 .dbox_title {
     display: flex;
     align-items: center;
+    margin: 0 0 0 2rem;
 }
 
 .dbox_title .dbox_logo img {
@@ -533,12 +535,62 @@ footer {
     margin: 0.5rem;
 }
 
+.dbox_container {
+    background-color: white;
+    padding: 2rem 4rem 2rem 4rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+}
+
 .dbox_container .count {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.count_text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .count .count_logo img {
     height: 3rem;
     width: 3rem;
+}
+
+.all_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.all_text_logo {
+    margin-right: 1rem;
+}
+
+.dbox_line {
+    border: 1px solid var(--secondary-3);
+    margin: 1rem 0 1rem 0;
+}
+
+.dbox_btn_primary {
+    color: black;
+    background-color: var(--secondary-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.dbox_btn_secondary {
+    color: var(--secondary-3);
+    font-weight: bold;
+    background-color: var(--secondary-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-radius: 0.5rem;
 }
