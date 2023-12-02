@@ -1,5 +1,6 @@
 @import './components/nav.css';
 @import './components/btns.css';
+@import './components/part2.css';
 
 :root {
 	--primary-1: #49deff;

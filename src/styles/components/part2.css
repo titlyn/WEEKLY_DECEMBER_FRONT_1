@@ -4,16 +4,18 @@
 }
 
 .sales_automation .discount_border {
-    border: 2px dashed gray;
+    border: 2px dashed var(--secondary-2);
     border-radius: 20px;
 }
 
 .sales_automation .discount_border .no_border {
     border-radius: 20px;
-    margin: 20px;
-    background-color: rgb(238, 234, 234); 
+    margin: 10px;
+    background-color: var(--secondary-3); 
     display: flex;
-    padding :5px;
+    padding-top :4%;
+    padding-bottom: 4%;
+
 }
 
 .sales_automation .discount_border .no_border .card {
@@ -30,8 +32,104 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    margin-bottom: 5%;
 }
 
 .card_title {
     display: flex;
+}
+
+.card_title .logo {
+    margin-right: 1rem;
+}
+
+.card_title .logo img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.line {
+    border: 1px solid var(--secondary-2);
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.work {
+    display: flex;
+}
+
+.work .work_left {
+    flex: 1;
+}
+
+.work .work_left h3 {
+    margin-left: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.work .work_left p {
+    margin-left: 10px;
+    margin-bottom: 2rem;
+}
+
+
+.work_left .work_card {
+    display: flex;
+    border: 1px solid var(--secondary-3);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.work .work_left .work_card .logo {
+    font-size: 20px;
+    color: var(--primary-1);
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.work .work_right {
+    background-color: var(--secondary-3);
+    display: flex;
+    flex: 1;
+    border-radius: 20px;
+    padding-left: 1.5rem; 
+}
+
+.work_right_text h3 {
+    margin-top: 5rem;
+}
+
+.work_right_buttons {
+    display: flex;
+}
+
+.wr_btn {
+    display: flex;
+    background-color: black;
+    border-radius: 0.3rem;
+    margin-right: 20px;
+    align-items: center;
+    color: white;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+.btn_logo img{
+    height: 30px;
+    width: 30px;
+}
+
+.wr_btn .text_btn {
+    font-size: 1rem;
+}
+
+
+.work_right_img img{
+    height: 30rem;
 }
