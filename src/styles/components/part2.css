@@ -65,10 +65,6 @@
     display: flex;
 }
 
-.work_left {
-
-}
-
 .work .work_left h3 {
     margin-left: 10px;
     margin-bottom: 0.5rem;
@@ -225,7 +221,7 @@
 }
 
 .middle p {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 .middle p span {
     color: var(--primary-1);
@@ -383,6 +379,14 @@
     justify-content: center;
     height: 3rem;
     border-radius: 0.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color {
+    color: orange;
 }
 
 footer {
