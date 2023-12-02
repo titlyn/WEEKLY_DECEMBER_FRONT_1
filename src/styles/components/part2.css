@@ -1,6 +1,11 @@
-.sales_automation {
+.div_title {
     text-align: center;
-    margin: 20px;
+    margin-bottom: 2rem;
+}
+
+.div_description {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .sales_automation .discount_border {
@@ -291,4 +296,39 @@
 
 .M {
     color: rgb(228, 94, 94);
+}
+
+.deliver_box {
+    display: flex;
+    background-color: var(--primary-1);
+    height: 20rem;
+    border-radius: 15px;
+    justify-content: center;
+    /* align-items: center;  */
+}
+
+.dbox {
+    margin: 6rem;
+}
+
+
+.dbox_title {
+    display: flex;
+    align-items: center;
+}
+
+.dbox_title .dbox_logo img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.dbox_container .count {
+    display: flex;
+    align-items: center;
+}
+
+.count .count_logo img {
+    height: 3rem;
+    width: 3rem;
 }
