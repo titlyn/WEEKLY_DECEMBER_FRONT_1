@@ -60,7 +60,7 @@ button:hover, a:hover{
 	height: 100lvh;
 	overflow-y: auto;
 
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 	align-items: flex-start;
 }
