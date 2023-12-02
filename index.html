@@ -17,17 +17,29 @@
                 <span>PrimeCRM</span>
             </a>
 
-            <div id="links">
-                <a href="" class="active">Solutions</a>
-                <a href="">Industries</a>
-                <a href="">Products</a>
-                <a href="">Ressources</a>
-                <a href="">Princing</a>
+            <div id="nav-wrapper">
+                <div id="spacer">&nbsp;</div>
+                <div id="links">
+                    <a href="#" nav-link  class="active">Solutions</a>
+                    <a href="#" nav-link >Industries</a>
+                    <a href="#" nav-link >Products</a>
+                    <a href="#" nav-link >Ressources</a>
+                    <a href="#" nav-link >Princing</a>
+                </div>
                 <button class="black-little">Login</button>
             </div>
+
+            <button id="menu-toggler">
+                <svg id="menu-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512" height="512">
+                    <path d="M4 7L4 9L28 9L28 7 Z M 4 15L4 17L28 17L28 15 Z M 4 23L4 25L28 25L28 23Z" />
+                </svg>
+                <svg id="quit-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="500" height="500">
+                    <path d="M9.15625 6.3125L6.3125 9.15625L22.15625 25L6.21875 40.96875L9.03125 43.78125L25 27.84375L40.9375 43.78125L43.78125 40.9375L27.84375 25L43.6875 9.15625L40.84375 6.3125L25 22.15625Z" />
+                  </svg>
+            </button>
         </nav>
     </div>
 
-    <script type="module" src="./src/js/main.js"></script>
+    <script type="module" src="src/js/main.js"></script>
 </body>
 </html>
