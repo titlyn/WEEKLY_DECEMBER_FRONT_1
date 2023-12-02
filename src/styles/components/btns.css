@@ -1,3 +1,7 @@
+.btns button{
+    padding: 0.875rem 2rem;
+}
+
 button.black-little {
     padding: 0.875rem 2rem;
     border-radius: 0.3125rem;
