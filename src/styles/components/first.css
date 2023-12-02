@@ -41,7 +41,7 @@
 #first .btns{
     display: flex;
     gap: 1.4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem !important;
     font-weight: 600;
 }
 
@@ -224,6 +224,14 @@
         width: 100%;
     }
 
+    #first .btns {
+        flex-direction: row;
+    }
+
+    #first .btns button {
+        width: fit-content;
+    }
+
     #first > .right{
         height: 36rem;
         max-height: 84%;
@@ -252,7 +260,8 @@
         display: none;
     }
 
-    #line1{
+    #first #line1{
+        display: none;
         width: 50% !important;
     }
 
@@ -261,11 +270,16 @@
     }
 }
 
-@media only screen and (max-width: 680px){
+@media only screen and (max-width: 400px){
     #first .btns {
         flex-direction: column;
         margin: auto 0 1rem 0;
     }
+
+    #first #texts {
+        margin-bottom: 3.5rem;
+    }
+
     #first .btns button {
         width: 100%;
     }
