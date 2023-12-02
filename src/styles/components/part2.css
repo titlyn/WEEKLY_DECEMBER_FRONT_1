@@ -60,8 +60,8 @@
     display: flex;
 }
 
-.work .work_left {
-    flex: 1;
+.work_left {
+
 }
 
 .work .work_left h3 {
@@ -95,13 +95,19 @@
 .work .work_right {
     background-color: var(--secondary-3);
     display: flex;
-    flex: 1;
     border-radius: 20px;
-    padding-left: 1.5rem; 
+    padding-left: 1.5rem;
+    margin-left: 2rem; 
+    flex: 1.5;
+}
+
+.work_right_text {
+    flex: 1;
 }
 
 .work_right_text h3 {
     margin-top: 5rem;
+
 }
 
 .work_right_buttons {
@@ -129,7 +135,160 @@
     font-size: 1rem;
 }
 
+.work_right_img {
+    flex: 0.5;
+}
 
 .work_right_img img{
     height: 30rem;
+}
+
+.profile {
+    background-color: var(--secondary-1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_nav {
+    display: flex;
+}
+
+.left {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left .circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 5rem;
+    width: 5rem;
+    border-left: 1px solid var(--secondary-2);
+    border-top: 1px solid var(--secondary-2);
+    border-bottom: 1px solid var(--secondary-2);
+}
+
+.left .circle1 .circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+}
+
+.left .circle1 .circle2 img {
+    rotate: 180deg;
+}
+
+
+.middle {
+    flex: 1;
+    height: 100vh;
+    background: url("/assets/brique.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 150% 150%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    color: var(--secondary-3);
+}
+
+.middle .img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 500px;
+    margin-bottom: 2rem;
+}
+
+.middle .star {
+    margin-bottom: 2rem;
+}
+
+.middle .star img {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.middle p {
+    margin-bottom: 2rem;
+}
+.middle p span {
+    color: var(--primary-1);
+}
+
+.right {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 5rem;
+    width: 5rem;
+    border-right: 1px solid var(--secondary-2);
+    border-top: 1px solid var(--secondary-2);
+    border-bottom: 1px solid var(--secondary-2);
+}
+
+.right .circle1 .circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+}
+
+.profile_line {
+    border: 1px solid gray;
+    width: 70%;
+
+}
+
+.profile_stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_stat .stat {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 8rem;
+    color: var(--secondary-3);
+}
+
+.slash {
+    color: var(--primary-1);
+}
+
+.K {
+    color: orange;
+}
+
+.plus {
+    color: rgb(98, 224, 98);
+}
+
+.M {
+    color: rgb(228, 94, 94);
 }
