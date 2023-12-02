@@ -1,0 +1,2 @@
+# WEEKLY_DECEMBER_FRONT_1
+GDSC ISPM Weekly December - week 1
