@@ -1,3 +1,16 @@
+:root{
+  --primary-1: #49deff;
+  --primary-2: #4fffdf;
+  --primary-3: #303030;
+
+  --secondary-1: #4E4E4E;
+  --secondary-2: #DEDEDE;
+  --secondary-3: #F4F4F4;
+  --secondary-4: #F9F9F9;
+
+  font-size: 20px;
+}
+
 *,
 *::before,
 *::after {
