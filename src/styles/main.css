@@ -43,6 +43,7 @@ body {
 	height: 100lvh;
 	overflow-y: hidden;
 
+	background-color: white;
 	color: var(--primary-3);
 }
 

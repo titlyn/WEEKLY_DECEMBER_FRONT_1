@@ -63,12 +63,15 @@ nav {
 }
 
 #links a.active::after{
-
     width: 100%;
 }
 
 #links a:hover{
     transform: scaleX(1.2);
+    -webkit-transform: scaleX(1.2);
+    -moz-transform: scaleX(1.2);
+    -ms-transform: scaleX(1.2);
+    -o-transform: scaleX(1.2);
 }
 
 #spacer{display: none;}
@@ -132,7 +135,7 @@ nav {
 
         padding: var(--vert-padding) var(--horiz-padding);
 
-        background-color: var(--secondary-4);
+        background-color: white;
     }
 
     #links{
