@@ -4,12 +4,6 @@
 }
 
 .div_description {
-.div_title {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.div_description {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -70,9 +64,7 @@
 .work {
     display: flex;
 }
-.work_left {
 
-}
 .work .work_left h3 {
     margin-left: 10px;
     margin-bottom: 0.5rem;
@@ -203,12 +195,7 @@
     background: url("/assets/brique.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
-<<<<<<< HEAD
-
-    background-size: 150% 150%;   
-=======
     background-size: 120% 120%;   
->>>>>>> b6657b6 (part two finished with desk)
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -218,10 +205,6 @@
 }
 
 .middle .img {
-<<<<<<< HEAD
-
-=======
->>>>>>> b6657b6 (part two finished with desk)
     width: 12rem;
     height: 12rem;
     border-radius: 500px;
@@ -238,7 +221,7 @@
 }
 
 .middle p {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 .middle p span {
     color: var(--primary-1);
@@ -398,7 +381,6 @@
     border-radius: 0.5rem;
 }
 
-<<<<<<< HEAD
 .bold {
     font-weight: bold;
 }
@@ -407,8 +389,6 @@
     color: orange;
 }
 
-=======
->>>>>>> b6657b6 (part two finished with desk)
 footer {
     margin-top: 60vh;
     display: flex;
@@ -513,97 +493,3 @@ footer {
 }
 
 
-<<<<<<< HEAD
-
-}
-
-
-
-.deliver_box {
-    display: flex;
-    background-color: var(--primary-1);
-    height: 20rem;
-    border-radius: 15px;
-    justify-content: center;
-    /* align-items: center;  */
-}
-
-.dbox {
-    width: 35%;
-    margin: 5%;
-}
-
-
-.dbox_title {
-    display: flex;
-    align-items: center;
-    margin: 0 0 0 2rem;
-}
-
-.dbox_title .dbox_logo img {
-    height: 3rem;
-    width: 3rem;
-    margin: 0.5rem;
-}
-
-.dbox_container {
-    background-color: white;
-    padding: 2rem 4rem 2rem 4rem;
-    border-radius: 1.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
-}
-
-.dbox_container .count {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.count_text {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.count .count_logo img {
-    height: 3rem;
-    width: 3rem;
-}
-
-.all_text {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.all_text_logo {
-    margin-right: 1rem;
-}
-
-.dbox_line {
-    border: 1px solid var(--secondary-3);
-    margin: 1rem 0 1rem 0;
-}
-
-.dbox_btn_primary {
-    color: black;
-    background-color: var(--secondary-2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    border-radius: 0.5rem;
-    font-weight: bold;
-}
-
-.dbox_btn_secondary {
-    color: var(--secondary-3);
-    font-weight: bold;
-    background-color: var(--secondary-1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
-    border-radius: 0.5rem;
-}
-=======
->>>>>>> b6657b6 (part two finished with desk)
