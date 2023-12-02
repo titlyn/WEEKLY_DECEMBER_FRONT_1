@@ -164,7 +164,7 @@
 }
 
 .left {
-    flex: 0.5;
+    flex: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,13 +198,17 @@
 
 
 .middle {
-    flex: 1;
+    flex: 80%;
     height: 100vh;
     background: url("/assets/brique.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
+<<<<<<< HEAD
 
     background-size: 150% 150%;   
+=======
+    background-size: 120% 120%;   
+>>>>>>> b6657b6 (part two finished with desk)
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -214,7 +218,10 @@
 }
 
 .middle .img {
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6657b6 (part two finished with desk)
     width: 12rem;
     height: 12rem;
     border-radius: 500px;
@@ -391,6 +398,7 @@
     border-radius: 0.5rem;
 }
 
+<<<<<<< HEAD
 .bold {
     font-weight: bold;
 }
@@ -399,6 +407,8 @@
     color: orange;
 }
 
+=======
+>>>>>>> b6657b6 (part two finished with desk)
 footer {
     margin-top: 60vh;
     display: flex;
@@ -503,6 +513,7 @@ footer {
 }
 
 
+<<<<<<< HEAD
 
 }
 
@@ -594,3 +605,5 @@ footer {
     height: 3rem;
     border-radius: 0.5rem;
 }
+=======
+>>>>>>> b6657b6 (part two finished with desk)
