@@ -1,5 +1,6 @@
 @import './components/nav.css';
 @import './components/btns.css';
+@import './components/first.css';
 
 :root {
 	--primary-1: #49deff;
@@ -26,9 +27,9 @@
 	outline: none;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
 	display: none;
-}
+} */
 
 a {
 	text-decoration: none;
@@ -61,15 +62,22 @@ button:hover, a:hover{
 	height: 100lvh;
 	overflow-y: auto;
 
-	/* display: flex; */
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	align-items: flex-start;
 }
 
-#main-content>* {
+#main-content > nav {
     /* border: 2px solid red; */
-    padding: var(--vert-padding) var(--horiz-padding);
+    padding: var(--vert-padding) var(--horiz-padding) 2rem var(--horiz-padding);
 	width: 100%;
+}
+
+.full-page{
+	min-height: 96lvh;
+	/* border: 2px solid cyan; */
+	padding: calc(var(--vert-padding)*5) var(--horiz-padding);
 }
 
 @media only screen and (max-width: 1500px) {
@@ -77,10 +85,6 @@ button:hover, a:hover{
 		--horiz-padding : 10%;
 		font-size: 14px;
 		--vert-padding : 2rem;
-	}
-
-	body{
-		border: 2px solid cyan;
 	}
 
 	#main-content>* {
@@ -96,5 +100,4 @@ button:hover, a:hover{
 	body{
 		border: 2px solid magenta;
 	}
-
 }
