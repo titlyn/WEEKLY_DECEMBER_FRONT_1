@@ -1,0 +1,35 @@
+button.black-little {
+    padding: 0.875rem 2rem;
+    border-radius: 0.3125rem;
+    background: var(--primary-3);
+    border: 1px solid var(--primary-3);
+    color: var(--secondary-3);
+}
+
+button.cyan-little {
+    padding: 0.875rem 1.95rem;
+    border-radius: 0.3125rem;
+    background: #4BE3EB;
+}
+
+button.black-large{
+    display: flex;
+    padding: 0.875rem 8.8125rem;
+    align-items: flex-start;
+    gap: 0.625rem;border-radius: 0.3125rem;
+    background: var(--primary-3);
+}
+
+button.white-large{
+    display: flex;
+    padding: 0.875rem 8.8125rem;
+    align-items: flex-start;
+    gap: 0.625rem;border-radius: 0.3125rem;
+    background: #EAEAEA;
+}
+
+/* @media only screen and (max-width: 992px) {
+    button.black-little, button.cyan-little{
+        padding: 0.875rem 2rem;
+    }
+} */

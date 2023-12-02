@@ -1,50 +1,95 @@
-:root{
-  --primary-1: #49deff;
-  --primary-2: #4fffdf;
-  --primary-3: #303030;
+@import './components/nav.css';
+@import './components/btns.css';
 
-  --secondary-1: #4E4E4E;
-  --secondary-2: #DEDEDE;
-  --secondary-3: #F4F4F4;
-  --secondary-4: #F9F9F9;
+:root {
+	--primary-1: #49deff;
+	--primary-2: #4fffdf;
+	--primary-3: #303030;
 
-  font-size: 20px;
+	--secondary-1: #4E4E4E;
+	--secondary-2: #DEDEDE;
+	--secondary-3: #F4F4F4;
+	--secondary-4: #F9F9F9;
+
+	--horiz-padding : 14%;
+
+	font-size: 20px;
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
 }
 
 *::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 html,
 body {
-  position: relative;
-  width: 100vw;
-  height: 100lvh;
-  overflow-y: hidden;
+	position: relative;
+	width: 100vw;
+	height: 100lvh;
+	overflow-y: hidden;
+
+	color: var(--primary-3);
 }
 
 /* #loader{
   z-index: 16;
 } */
 
-#page-content{
-  z-index: 15;
+#main-content {
+	z-index: 15;
 
-  width: 100%;
-  height: 100lvh;
-  overflow-y: auto;
+	width: 100%;
+	height: 100lvh;
+	overflow-y: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#main-content>* {
+    /* border: 2px solid red; */
+    padding: 2.5rem var(--horiz-padding);
+	width: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+	:root{
+		--horiz-padding : 8%;
+		font-size: 14px;
+	}
+
+	body{
+		border: 2px solid cyan;
+	}
+
+	#main-content>* {
+		/* border: 2px solid red; */
+		padding: 2rem var(--horiz-padding);
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+    :root{
+        --horiz-padding: 4%;
+    }
+
+	body{
+		border: 2px solid magenta;
+	}
+
 }
