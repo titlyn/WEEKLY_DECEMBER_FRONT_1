@@ -4,6 +4,12 @@
 }
 
 .div_description {
+.div_title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.div_description {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -64,14 +70,9 @@
 .work {
     display: flex;
 }
-
-<<<<<<< HEAD
-=======
 .work_left {
 
 }
-
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
 .work .work_left h3 {
     margin-left: 10px;
     margin-bottom: 0.5rem;
@@ -163,11 +164,7 @@
 }
 
 .left {
-<<<<<<< HEAD
-    flex: 10%;
-=======
     flex: 0.5;
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,20 +198,13 @@
 
 
 .middle {
-<<<<<<< HEAD
-    flex: 80%;
-=======
     flex: 1;
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
     height: 100vh;
     background: url("/assets/brique.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
-<<<<<<< HEAD
-    background-size: 120% 120%;   
-=======
+
     background-size: 150% 150%;   
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -224,13 +214,9 @@
 }
 
 .middle .img {
-<<<<<<< HEAD
+
     width: 12rem;
     height: 12rem;
-=======
-    width: 10rem;
-    height: 10rem;
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
     border-radius: 500px;
     margin-bottom: 2rem;
 }
@@ -245,11 +231,7 @@
 }
 
 .middle p {
-<<<<<<< HEAD
-    margin-bottom: 0.5rem;
-=======
     margin-bottom: 2rem;
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
 }
 .middle p span {
     color: var(--primary-1);
@@ -320,7 +302,6 @@
 
 .M {
     color: rgb(228, 94, 94);
-<<<<<<< HEAD
 }
 
 .deliver_box {
@@ -522,6 +503,42 @@ footer {
 }
 
 
-=======
+
 }
->>>>>>> 483a85c (beginning the Deliver End-To-End part)
+
+
+
+.deliver_box {
+    display: flex;
+    background-color: var(--primary-1);
+    height: 20rem;
+    border-radius: 15px;
+    justify-content: center;
+    /* align-items: center;  */
+}
+
+.dbox {
+    margin: 6rem;
+}
+
+
+.dbox_title {
+    display: flex;
+    align-items: center;
+}
+
+.dbox_title .dbox_logo img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.dbox_container .count {
+    display: flex;
+    align-items: center;
+}
+
+.count .count_logo img {
+    height: 3rem;
+    width: 3rem;
+}
