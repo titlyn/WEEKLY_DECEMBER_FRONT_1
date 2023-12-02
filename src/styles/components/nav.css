@@ -1,9 +1,13 @@
 nav {
+    --gap: 2.8rem;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    vertical-align: middle;
+    position: fixed;
+        top: 0;
+        left: 0;
 }
 
 #header-logo {
@@ -20,9 +24,19 @@ nav {
     height: 2.95rem;
 }
 
+#menu-toggler{
+    display: none;
+}
+
+#nav-wrapper{
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
 #links {
     display: flex;
-    width: 46.0625rem;
+    /* width: 46.0625rem; */
     justify-content: flex-end;
     align-items: center;
     gap: 2.8rem;
@@ -32,25 +46,102 @@ nav {
     padding: 0.5rem 0;
 
     position: relative;
+    transition: transform 0.2s ease-in-out; 
 }
 
-#links a.active::after{
-    transition: width 0.2s ease-in-out;
-}
-
-#links a.active::after{
+#links a::after{
     content: "";
-
+    
     position: absolute;
         bottom: 0;
         left: 0;
 
+    width: 0%;
+
     border-bottom: 0.2rem solid var(--primary-3);
+    transition: width 0.2s ease-in-out;
+}
+
+#links a.active::after{
+
     width: 100%;
 }
 
+#links a:hover{
+    transform: scaleX(1.2);
+}
+
+#spacer{display: none;}
+
 @media only screen and (max-width: 992px) {
+    nav{
+        --gap: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #menu-toggler{
+        display: flex;
+        align-items: center;
+
+        padding: 0.6rem;
+        border-radius: 0.3125rem;
+        background-color: transparent;
+        border: 1px solid var(--primary-3);
+    }
+    
+    #menu-toggler #quit-svg{
+        display: none;
+    }
+    
+    #menu-toggler svg{
+        width: 1.4rem;
+        height: auto;
+        z-index: 11;
+    }
+
+    #nav-wrapper.visible ~ #menu-toggler #quit-svg{
+        display: flex;
+    }
+
+    #nav-wrapper.visible ~ #menu-toggler #menu-svg{
+        display: none;
+    }
+
+    #nav-wrapper.visible #spacer{
+        display: flex;
+    }
+
+    #nav-wrapper{
+        display: none;
+    }
+
+    #nav-wrapper.visible{
+        z-index: 10;
+
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+
+        position: absolute;
+            top: 0;
+            left: 0;
+
+        width: 100vw;
+        height: 100lvh;
+
+        padding: var(--vert-padding) var(--horiz-padding);
+
+        background-color: var(--secondary-4);
+    }
+
     #links{
-        gap: 2rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    #nav-wrapper .black-little{
+        width: 100%;
+        max-width: 350px;
     }
 }

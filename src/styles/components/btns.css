@@ -3,7 +3,7 @@ button.black-little {
     border-radius: 0.3125rem;
     background: var(--primary-3);
     border: 1px solid var(--primary-3);
-    color: var(--secondary-3);
+    color: var(--secondary-4);
 }
 
 button.cyan-little {

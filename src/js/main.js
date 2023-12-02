@@ -1,5 +1,4 @@
-import {setUpNavLinkClick} from './modules/nav'
-import { NAV_LINKS } from './modules/elements'
+import {setUpNavActions} from './modules/nav.js'
 
 
-setUpNavLinkClick(NAV_LINKS)
+setUpNavActions()
