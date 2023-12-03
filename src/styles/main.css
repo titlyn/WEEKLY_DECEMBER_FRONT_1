@@ -4,6 +4,7 @@
 @import './components/part2.css';
 @import './components/first.css';
 @import './components/features.css';
+@import './components/corefeat.css';
 
 :root {
 	--primary-1: #49deff;
@@ -37,6 +38,13 @@
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+p {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
 }
 
 html,
@@ -83,9 +91,12 @@ button:hover, a:hover{
 }
 
 .full-page{
-	min-height: 100vh;
+	min-height: 95vh;
 	height: max-content;
 	/* border: 2px solid cyan; */
+}
+
+#first.full-page{
 	padding: calc(var(--vert-padding)*5) var(--horiz-padding) var(--vert-padding);
 }
 
