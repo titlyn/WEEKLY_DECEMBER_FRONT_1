@@ -2,6 +2,8 @@
 @import './components/btns.css';
 @import './components/part2.css';
 @import './components/first.css';
+@import './components/fonts.css'
+
 
 :root {
 	--primary-1: #49deff;
