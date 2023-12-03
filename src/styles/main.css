@@ -104,10 +104,6 @@ button:hover, a:hover{
     :root{
         --horiz-padding: 4%;
     }
-
-	body{
-		border: 2px solid magenta;
-	}
 }
 
 @media only screen and (max-width: 680px){
