@@ -156,14 +156,14 @@
     display: flex;
 }
 
-.left {
+.profile .left {
     flex: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left .circle1 {
+.profile .left .circle1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +175,7 @@
     border-bottom: 1px solid var(--secondary-2);
 }
 
-.left .circle1 .circle2 {
+.profile .left .circle1 .circle2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,12 +185,12 @@
     border-radius: 50px;
 }
 
-.left .circle1 .circle2 img {
+.profile .left .circle1 .circle2 img {
     rotate: 180deg;
 }
 
 
-.middle {
+.profile .middle {
     flex: 80%;
     height: 100vh;
     background: url("/assets/brique.svg");
