@@ -176,6 +176,7 @@ h1, h2, h3, h4 ,h5{
 
 .wr_btn .text_btn h3 {
     font-size:1.3rem;
+    
 }
 
 .work_right_img img{
@@ -588,4 +589,133 @@ footer {
 .footer_line {
     border: 1px solid gray;
     margin: 1rem 0 1rem 0;
+}
+
+@media only screen and (max-width: 1500px) {
+	:root{
+		--horiz-padding : 10%;
+		font-size: 14px;
+		--vert-padding : 2rem;
+	}
+
+	#main-content>* {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+    :root{
+        --horiz-padding: 4%;
+    }
+
+	body{
+		border: 2px solid magenta;
+	}
+
+    #sales_automation .discount_border {
+        border: none;
+    }
+    #sales_automation .no_border {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #sales_automation .card {
+        margin: 2rem 0 2rem 0;
+    }
+
+    #work {
+        display: inline-block;
+    }
+
+    #work .work_left, .work_right {
+        margin: 2rem 0 2rem 0;
+    }
+
+    #work .work_right {
+        padding: 2rem;
+    }
+
+    #work .work_right_img {
+        display: none;
+    }
+
+    #deliver {
+        padding: 0;
+    }
+    #deliver .deliver_box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #deliver .dbox_container {
+        width: 30rem;
+    }
+
+    .footer {
+        display: inline-block;
+    }
+
+
+    .second_footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 680px){
+	:root{
+        --horiz-padding: 25px;
+    }
+
+    #sales_automation .discount_border {
+        border: none;
+    }
+
+    #sales_automation .no_border {
+        display: inline-block;
+        background-color: white;
+    }
+
+    #sales_automation .card {
+        margin: 2rem 0 2rem 0;
+    }
+
+    #work {
+        display: inline-block;
+    }
+
+    #work .work_left, .work_right {
+        margin: 2rem 0 2rem 0;
+    }
+
+    #work .work_right {
+        padding: 2rem;
+    }
+
+    #work .work_right_img {
+        display: none;
+    }
+
+    #deliver .deliver_box{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #deliver .dbox_container {
+        width: 30rem;
+    }
+
+    .footer {
+        display: inline-block;
+    }
+
+    .second_footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
