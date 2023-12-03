@@ -1,11 +1,28 @@
+h1, h2, h3, h4 ,h5{
+    font-family: 'Jost-Regular';
+}
+
 .div_title {
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family:'Jost-Regular';
 }
 
 .div_description {
     text-align: center;
+    font-family: 'OpenSans-Regular';
     margin-bottom: 2rem;
+}
+
+#sales_automation {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5% 10% 5% 10%;
+}
+
+#sales_automation p {
+    font-family: 'OpenSans-Regular';
 }
 
 .sales_automation .discount_border {
@@ -18,8 +35,8 @@
     margin: 10px;
     background-color: var(--secondary-3); 
     display: flex;
-    padding-top :4%;
-    padding-bottom: 4%;
+    padding: 4% 1% 4% 1%;
+    
 
 }
 
@@ -37,7 +54,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
 }
 
 .card_title {
@@ -53,20 +70,30 @@
     width: 3rem;
 }
 
-.line {
+#sales_automation .line {
     border: 1px solid var(--secondary-2);
     width: 50%;
     margin-left: 10%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#work {
+    padding: 5% 10% 5% 10%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#work p{
+    font-family: 'OpenSans-Regular';
 }
 
 .work {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
-.work .work_left h3 {
+.work .work_left h2 {
     margin-left: 10px;
     margin-bottom: 0.5rem;
 }
@@ -86,7 +113,7 @@
     
 }
 
-.work .work_left .work_card .logo {
+.work .work_left .work_card .work_logo {
     font-size: 20px;
     color: var(--primary-1);
     margin-left: 5px;
@@ -97,23 +124,30 @@
 .work .work_right {
     background-color: var(--secondary-3);
     display: flex;
+    justify-content: space-between;
     border-radius: 20px;
     padding-left: 1.5rem;
     margin-left: 2rem; 
-    flex: 1.5;
+    flex: 1;
 }
 
 .work_right_text {
     flex: 1;
 }
 
-.work_right_text h3 {
+.work_right_text h2 {
     margin-top: 5rem;
+    margin-bottom: 2rem;
+}
 
+#work .work_right_text .blue {
+    color: var(--primary-1);
+    margin-bottom: 1rem;
 }
 
 .work_right_buttons {
     display: flex;
+    margin-top: 3rem;
 }
 
 .wr_btn {
@@ -133,16 +167,27 @@
     width: 30px;
 }
 
-.wr_btn .text_btn {
-    font-size: 1rem;
+
+.wr_btn .text_btn p {
+    font-weight: bold;
+    font-family: 'Jost-Regular';
+    font-size: 0.6rem;
 }
 
-.work_right_img {
-    flex: 0.5;
+.wr_btn .text_btn h3 {
+    font-size:1.3rem;
 }
 
 .work_right_img img{
     height: 30rem;
+}
+
+#profile {
+    padding: 5% 10% 5% 10%;
+}
+
+#profile p {
+    font-family: 'OpenSans-Regular';
 }
 
 .profile {
@@ -257,10 +302,9 @@
     border-radius: 50px;
 }
 
+
 .profile_line {
     border: 1px solid gray;
-    width: 70%;
-
 }
 
 .profile_stat {
@@ -295,6 +339,14 @@
     color: rgb(228, 94, 94);
 }
 
+#deliver {
+    padding: 5% 10% 5% 10%;
+}
+
+#deliver p {
+    font-family: 'OpenSans-Regular';
+}
+
 .deliver_box {
     display: flex;
     background-color: var(--primary-1);
@@ -311,9 +363,18 @@
 
 
 .dbox_title {
+    font-family: 'OpenSans-Regular';
     display: flex;
     align-items: center;
     margin: 0 0 0 2rem;
+    font-size: 1.5rem;
+    
+}
+
+.dbox_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dbox_title .dbox_logo img {
@@ -335,9 +396,23 @@
     justify-content: space-between;
 }
 
-.count_text {
-    font-size: 2rem;
+.count {
+    display: flex;
+    align-items: center;
     margin-bottom: 2rem;
+}
+
+.count_text {
+    font-family: 'Jost-Bold';
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+.count .count_logo {
+    display: flex;
+    align-items: center;
 }
 
 .count .count_logo img {
@@ -368,18 +443,22 @@
     justify-content: center;
     height: 3rem;
     border-radius: 0.5rem;
-    font-weight: bold;
+    font-family: 'Jost-Bold';
 }
 
 .dbox_btn_secondary {
     color: var(--secondary-3);
-    font-weight: bold;
     background-color: var(--secondary-1);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 3rem;
     border-radius: 0.5rem;
+    font-family: 'Jost-Bold';
+}
+
+.all_text_text {
+    font-family: 'OpenSans-Regular';
 }
 
 .bold {
@@ -391,11 +470,12 @@
 }
 
 footer {
-    margin-top: 60vh;
+    margin-top: 30rem;
     display: flex;
     flex-direction: column;
     background: var(--secondary-1);
     color: var(--secondary-2);
+    padding:5% 10% 5% 10%;
 }
 
 .first_footer {
@@ -411,6 +491,12 @@ footer {
 .left_first_footer .first_logo img {
     width: 3rem;
     height: 3rem;
+}
+
+.first_footer .first_title {
+    font-family: 'Jost-Bold';
+    font-size: 2rem;
+    margin-left: 0.5rem;
 }
 
 .right_first_footer {
@@ -446,6 +532,7 @@ footer {
     border-right: 1px solid rgb(194, 194, 194);
     border-bottom: 1px solid rgb(194, 194, 194);
     height: 5rem;
+    font-family: 'Jost-Regular';
     border-radius: 0.6rem;
     display: flex;
     align-items: center;
@@ -471,10 +558,12 @@ footer {
     background: rgba(255, 255, 255, 0.8);
     padding: 1rem 2.5rem 1rem 2.5rem; 
     border-radius: 0.5rem;   
+    font-family: 'Jost-Regular';
 }
 
 .tf_text {
     display: flex;
+    font-family: 'Jost-Bold';
     align-items: center;
     height: 5rem;
     justify-content: space-between;
@@ -482,10 +571,13 @@ footer {
 
 .tf_t {
     margin: 0.5rem;
+    font-family : 'Jost-Regular';
 }
 
 .copyright {
+    margin-top: 1rem;
     text-align: center;
+    font-family: 'Jost-Regular';
 }
 
 .sf_text {
@@ -493,4 +585,7 @@ footer {
     margin-right: 1rem;
 }
 
-
+.footer_line {
+    border: 1px solid gray;
+    margin: 1rem 0 1rem 0;
+}
