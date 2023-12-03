@@ -27,7 +27,11 @@ h1, h2, h3, h4 ,h5{
 
 .sales_automation .discount_border {
     border: 2px dashed var(--secondary-2);
-    border-radius: 20px;
+    border-radius: calc(20px + 1%);
+    -webkit-border-radius: calc(20px + 1%);
+    -moz-border-radius: calc(20px + 1%);
+    -ms-border-radius: calc(20px + 1%);
+    -o-border-radius: calc(20px + 1%);
 }
 
 .sales_automation .discount_border .no_border {
@@ -611,10 +615,6 @@ footer {
     :root{
         --horiz-padding: 4%;
     }
-
-	body{
-		border: 2px solid magenta;
-	}
 
     #sales_automation .discount_border {
         border: none;
