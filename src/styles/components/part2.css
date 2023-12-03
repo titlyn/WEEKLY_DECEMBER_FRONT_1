@@ -700,6 +700,15 @@ footer {
         display: none;
     }
 
+    #work .work_right_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #work .work_right_buttons .wr_btn{
+        margin: 1rem 0 1rem 0;
+    }
+
     #deliver .deliver_box{
         margin: 0 2rem 0 2rem;
         display: inline-block;
