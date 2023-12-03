@@ -133,8 +133,9 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         width: 100vw;
-        height: 100lvh;
-        padding: var(--vert-padding) var(--horiz-padding);
+        height: 100vh;
+        overflow: auto;
+        padding: calc(var(--vert-padding)*3) var(--horiz-padding);
         background-color: white;
         z-index: 10;
 }
