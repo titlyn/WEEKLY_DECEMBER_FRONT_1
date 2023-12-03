@@ -1,6 +1,6 @@
 #clients-details{
     padding: calc(var(--vert-padding)*5) var(--horiz-padding) var(--vert-padding);
-    margin-top: calc(var(--vert-padding) * -6);
+    margin-top: calc(var(--vert-padding) * -1);
 
     display: flex;
     flex-direction: column;
