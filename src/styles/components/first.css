@@ -11,15 +11,14 @@
 
     width: 40%;
     margin: auto 0;
+
     z-index: 2
     /* border: 2px solid red; */
-
 }
 
 #first #texts{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
     gap: 1rem;
     margin-bottom: 2.1rem;
 
@@ -183,8 +182,8 @@
     -ms-transform:rotate(-16deg);
     -o-transform:rotate(-16deg);
     border-bottom-left-radius: 6rem;
-    /*overflow: hidden;
-    */
+    /*overflow: hidden;  */
+    */background-color: var(--primary-1);
 }
 
 #first > .right .left{
@@ -277,7 +276,6 @@
 
     #first > .right #img-wrapper{
         width: 174%;
-    
         bottom: -5rem;
         left: -20%;
     }
