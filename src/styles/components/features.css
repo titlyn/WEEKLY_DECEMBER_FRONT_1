@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-#feat-text h2, .corefeat-text h2{
+h2{
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 3rem;

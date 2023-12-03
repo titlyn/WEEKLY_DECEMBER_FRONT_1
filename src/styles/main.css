@@ -47,6 +47,16 @@ p {
     line-height: 1.6rem;
 }
 
+p.big, h2, #header-logo{
+	font-family: "Jost-Regular";
+}
+
+h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
 html,
 body {
 	position: relative;
@@ -56,6 +66,8 @@ body {
 
 	background-color: white;
 	color: var(--primary-3);
+
+	font-family: 'OpenSans-Regular';
 }
 
 button:hover, a:hover{

@@ -46,9 +46,9 @@ h1, h2, h3, h4 ,h5{
 }
 
 .card_button {
-    height: 45px;
+    /* height: 45px;
     width: 30%;
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(27, 25, 25); */
     color: white;
     display: flex;
     justify-content: center;
@@ -70,7 +70,11 @@ h1, h2, h3, h4 ,h5{
     width: 3rem;
 }
 
-#sales_automation .line {
+.sales_automation{
+    padding: 0 var(--horiz-padding);
+}
+
+.sales_automation .line {
     border: 1px solid var(--secondary-2);
     width: 50%;
     margin-left: 10%;
@@ -183,7 +187,7 @@ h1, h2, h3, h4 ,h5{
 }
 
 #profile {
-    padding: 5% 10% 5% 10%;
+    padding: var(--vert-padding) var(--horiz-padding) var(--vert-padding)
 }
 
 #profile p {
