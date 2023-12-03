@@ -184,7 +184,7 @@
     -o-transform:rotate(-16deg);
     border-bottom-left-radius: 6rem;
     /*overflow: hidden;  */
-    */background-color: var(--primary-1);
+    background-color: var(--primary-1);
 }
 
 #first > .right .left{
