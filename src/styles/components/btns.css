@@ -8,12 +8,16 @@ button.black-little {
     background: var(--primary-3);
     border: 1px solid var(--primary-3);
     color: var(--secondary-4);
+    min-width: max-content;
+        font-size: 1rem;
 }
 
 button.cyan-little {
     padding: 0.875rem 1.95rem;
     border-radius: 0.3125rem;
     background: #4BE3EB;
+    min-width: max-content;
+        font-size: 1rem;
 }
 
 button.black-large{
@@ -22,6 +26,8 @@ button.black-large{
     align-items: flex-start;
     gap: 0.625rem;border-radius: 0.3125rem;
     background: var(--primary-3);
+    min-width: max-content;
+        font-size: 1rem;
 }
 
 button.white-large{
@@ -30,6 +36,8 @@ button.white-large{
     align-items: flex-start;
     gap: 0.625rem;border-radius: 0.3125rem;
     background: #EAEAEA;
+    min-width: max-content;
+        font-size: 1rem;
 }
 
 /* @media only screen and (max-width: 992px) {
