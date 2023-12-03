@@ -228,14 +228,14 @@
     color: var(--primary-1);
 }
 
-.right {
+.profile .right {
     flex: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.right .circle1 {
+.profile .right .circle1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +247,7 @@
     border-bottom: 1px solid var(--secondary-2);
 }
 
-.right .circle1 .circle2 {
+.profile .right .circle1 .circle2 {
     display: flex;
     justify-content: center;
     align-items: center;

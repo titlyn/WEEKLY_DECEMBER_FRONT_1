@@ -11,4 +11,3 @@ GDSC ISPM Weekly December - week 1
     - manao maj branch anla `git rebase main`
 - Farany, alefanao ao aminao ny modification rehetra nataonao `git push origin rakoto`
 - Makany aminy navigateur ianao avy eo manao *Merge request*
-- Rhefa manao PR de Rebase and Merge Fa tsy merge
