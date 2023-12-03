@@ -1,9 +1,13 @@
+@import './components/fonts.css';
+@import './components/loader.css';
 @import './components/nav.css';
 @import './components/btns.css';
 @import './components/part2.css';
 @import './components/first.css';
-@import './components/fonts.css';
-
+@import './components/features.css';
+@import './components/corefeat.css';
+@import './components/clients.css';
+@import './components/newsletter.css';
 
 :root {
 	--primary-1: #49deff;
@@ -39,6 +43,27 @@ a {
 	color: inherit;
 }
 
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+button{
+	border: none;
+}
+
+p.big, h2, #header-logo{
+	font-family: "Jost-Regular";
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
 html,
 body {
 	position: relative;
@@ -48,6 +73,8 @@ body {
 
 	background-color: white;
 	color: var(--primary-3);
+
+	font-family: 'OpenSans-Regular';
 }
 
 button:hover, a:hover{
@@ -83,9 +110,12 @@ button:hover, a:hover{
 }
 
 .full-page{
-	min-height: 100vh;
+	min-height: 95vh;
 	height: max-content;
 	/* border: 2px solid cyan; */
+}
+
+#first.full-page{
 	padding: calc(var(--vert-padding)*5) var(--horiz-padding) var(--vert-padding);
 }
 
@@ -105,10 +135,6 @@ button:hover, a:hover{
     :root{
         --horiz-padding: 4%;
     }
-
-	body{
-		border: 2px solid magenta;
-	}
 }
 
 @media only screen and (max-width: 680px){

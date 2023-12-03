@@ -1,0 +1,122 @@
+#features{
+    width: 100%;
+
+    padding: calc(3 * var(--vert-padding)) var(--horiz-padding) calc(1 * var(--vert-padding));
+
+    margin: calc(2 * var(--vert-padding)) auto calc(2 * var(--vert-padding)) auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.5em;
+}
+
+#feat-text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#feat-text p{
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#feat-badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+
+    gap: 1.9rem;
+
+    --badge-padding : 2.5rem 2rem;
+}
+
+#feat-badges .feat-badge{
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.2rem;
+}
+
+#feat-badges .feat-badge img{
+    height: 3.5rem;
+    width: max-content;
+}
+
+#feat-badges .feat-badge .text{
+    height: 100%;
+}
+
+#feat-badges .feat-badge .text h3{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+#feat-badges .feat-badge .text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#feat-badges .feat-badge, #feat-badges .feat-badge:hover ~ .feat-badge{
+    padding: var(--badge-padding);
+    border-radius: 0.625rem;
+    background-color: #f4f4f4ed;
+
+    box-shadow: -2.573px 2.573px 0px 0px #FFF inset;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+#feat-badges .feat-badge:hover, #feat-badges .feat-badge.active{
+    background-color: white;
+    box-shadow: 0px 28px 57px 0px rgba(145, 145, 145, 0.322);
+}
+
+@media only screen and (max-width: 1700px) {
+    #feat-badges{    
+        --badge-padding : 2.5rem 1.4rem;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    #feat-badges{    
+        --badge-padding : 2.5rem 2rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #feat-badges{    
+        --badge-padding : 2.5rem 1.6rem;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 650px){
+    #feat-badges{    
+        --badge-padding : 1.8rem 1.6rem;
+        /* border: 2px solid; */
+
+
+        /* flex-direction: column;
+        align-items: center; */
+    }
+
+    #feat-text {
+        width: 95%;
+    }
+
+    #feat-badges .feat-badge{
+        width: 50%;
+        min-width: 188px;
+    }
+}

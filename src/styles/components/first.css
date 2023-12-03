@@ -165,6 +165,7 @@
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--secondary-2);
+    margin: 0;
 }
 
 #first > .right{
@@ -183,7 +184,7 @@
     -o-transform:rotate(-16deg);
     border-bottom-left-radius: 6rem;
     /*overflow: hidden;  */
-    */background-color: var(--primary-1);
+    background-color: var(--primary-1);
 }
 
 #first > .right .left{
@@ -317,11 +318,11 @@
         */width: 60%;
     }
     
-    #first #pattern{
+    #first #pattern {
         width: 863px;
-        top: -104%;
-        left: -67vw;
-    }
+        top: -8%;
+        left: -40vw;
+    }    
 
     #first #texts svg{
         width: 15px;
@@ -356,42 +357,28 @@
         width: fit-content;
     }
 
-    #first > .right{
-        height: 46rem;
-        max-height: 84%;
-
-        width: 25%;
-        top: 0;
-        bottom: 3rem;
-        left: auto;
-        right: var(--horiz-padding);
-        transform:rotate(-0deg);
-        -webkit-transform:rotate(-0deg);
-        -moz-transform:rotate(-0deg);
-        -ms-transform:rotate(-0deg);
-        -o-transform:rotate(-0deg);
-
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-    }
-
-    #first > .right .left{
-        border-bottom-left-radius: 0;
-        position: static;
+    #first > .right .left, #first > .right .right{
+        background-color: transparent;
     }
 
     #first > .right #img-wrapper {
         display: none;
     }
 
+    #first #pattern {
+        width: 863px;
+        top: -58%;
+        left: -67vw;
+    }
+
     #img-wrapper-2{
         z-index: -1;
         display: flex;
-        width: 40vw;
+        width: 50vw;
         /*height: 100lvh;
         */left: auto;
         right: var(--horiz-padding);
-        bottom: calc(2*var(--horiz-padding));
+        bottom: calc(4*var(--horiz-padding));
         transform: rotate(20deg)   ;
         -webkit-transform: rotate(20deg)   ;
         -moz-transform: rotate(20deg)   ;
@@ -409,7 +396,7 @@
     }
 
     .btns .secondary, #first #badge{
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(10px);
     }
 
     #first .secondary{

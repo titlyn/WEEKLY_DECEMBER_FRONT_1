@@ -14,7 +14,7 @@ function toggleMobilNav(){
     NAV_MOBIL_WRAPPER.classList.toggle('visible')
 }
 
-const toggleActiveLink = (function(){
+export const toggleActiveLink = (function(){
     let lastActiveLink = [...NAV_LINKS].find( link => link.classList.contains('active'))
 
     /**
@@ -24,6 +24,8 @@ const toggleActiveLink = (function(){
     return function(newActiveLink){
         lastActiveLink.classList.remove('active')
         newActiveLink.classList.add('active')
+
+        NAV_MOBIL_WRAPPER.classList.remove('visible')
 
         lastActiveLink= newActiveLink
     }

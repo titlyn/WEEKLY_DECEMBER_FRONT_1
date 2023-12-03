@@ -60,7 +60,7 @@ nav {
 
     width: 0%;
 
-    border-bottom: 0.2rem solid var(--primary-3);
+    border-bottom: 0.1rem solid var(--primary-3);
     transition: width 0.2s ease-in-out;
 }
 
