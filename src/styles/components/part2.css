@@ -826,3 +826,14 @@ footer {
         min-width: unset;
     }
 }
+
+@media only screen and (max-width: 420px) {
+    .second_footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second_footer .tf_text{
+        justify-content: center;
+    }
+}
